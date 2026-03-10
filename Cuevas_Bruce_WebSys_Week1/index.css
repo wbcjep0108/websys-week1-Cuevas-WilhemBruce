@@ -1,0 +1,56 @@
+html, body{
+  height:100%;
+  margin:0;
+}
+
+body{
+    background-color:white;
+    text-align: center;
+}
+
+main{
+  flex:1;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    padding:20px;
+    font-family:'Poppins', sans-serif;
+}
+
+h2{
+ font-family:'Poppins', sans-serif;
+}
+
+.about{
+    width:60%;
+    margin:auto;
+    text-align:center;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+footer{
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+
+footer a{
+    color:white;
+    text-decoration:none;
+    margin-left:10px;
+}
+
+footer a:hover{
+    text-decoration:underline;
+}
